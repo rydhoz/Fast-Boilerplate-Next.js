@@ -1,70 +1,65 @@
-````md
+
 # Fast Boilerplate Next.js
 
-A modern and reusable Next.js boilerplate to kickstart your web projects with a clean structure and best practices.
+A simple and fast boilerplate for building modern web applications with Next.js.
 
-## Features
+## Packages
 
-- Next.js
-- Tailwind CSS
-- App Router
-- Responsive Layout
-- Reusable Components
-- Clean Folder Structure
-- Easy to Customize
+### Dependencies
 
-## Tech Stack
+- Next.js 16.2.7
+- React 19.2.4
+- React DOM 19.2.4
+- Tailwind CSS 4
+- clsx
+- tailwind-merge
+- lucide-react
 
-- Next.js
-- React
-- Tailwind CSS
-- JavaScript
+### Development
+
+- TypeScript
+- ESLint
+- Prettier
+- PostCSS
+- Autoprefixer
+- prettier-plugin-tailwindcss
+
+## Requirements
+
+- Node.js 20+
+- npm
 
 ## Installation
 
-Clone the repository
-
 ```bash
-git clone https://github.com/username/fast-boilerplate-nextjs.git
-```
+git clone <repository-url>
 
-Go to the project folder
+cd Fast-Boilerplate-Next.js
 
-```bash
-cd fast-boilerplate-nextjs
-```
-
-Install dependencies
-
-```bash
 npm install
-```
 
-Run the development server
-
-```bash
 npm run dev
 ```
 
-Open your browser and visit:
+Open http://localhost:3000 in your browser.
 
-```
-http://localhost:3000
-```
-
-## Build
+## Scripts
 
 ```bash
+npm run dev
 npm run build
-```
-
-Start the production server
-
-```bash
 npm run start
+npm run lint
+npm run format
 ```
+
+## Author
+
+Ridho Akbar
+
+GitHub: https://github.com/rydhoz
 
 ## License
 
-MIT License
-````
+MIT
+
