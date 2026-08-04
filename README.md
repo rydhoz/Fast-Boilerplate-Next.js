@@ -27,7 +27,7 @@ A simple and fast boilerplate for building modern web applications with Next.js.
 ## Requirements
 
 - Node.js 20+
-- npm
+- npm/pnpm/bun/others...
 
 ## Installation
 
